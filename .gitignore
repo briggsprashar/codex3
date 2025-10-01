@@ -1,10 +1,20 @@
 # RAW DATA FILES (exclude from repo). These files are likely large and do not need version control.
 
+input/
+input/*.*
+
 output/
 output/*.* 
 
 script/
 script/*.*
+scripts/hcpcs_processor.py
+scripts/icd10cm_processor.py
+scripts/icd10who_processor.py
+scripts/loinc_processor.py
+scripts/npi.py
+scripts/rxnorm_processor.py
+scripts/snomed.py
 
 requirements.txt
 
